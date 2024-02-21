@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">yummy</string>
+    <string name="DessertText">Desserts</string>
+    <string-array name="SpinnerItems">
+        <item>Iraq</item>
+        <item>Syria</item>
+        <item>Lebanon</item>
+        <item>Egypt</item>
+        <item>Algeria</item>
+    </string-array>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.yummy">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yummy"
+        tools:targetApi="31">
+        <activity
+            android:name=".Lunch"
+            android:exported="false" />
+        <activity
+            android:name=".Coleslaw"
+            android:exported="false" />
+        <activity
+            android:name=".Spaghetti"
+            android:exported="false" />
+        <activity
+            android:name=".Burger"
+            android:exported="false" />
+        <activity
+            android:name=".pizza"
+            android:exported="false" />
+        <activity
+            android:name=".Dinner"
+            android:exported="false" />
+        <activity
+            android:name=".TomatoSoup"
+            android:exported="false" />
+        <activity
+            android:name=".Turkey"
+            android:exported="false" />
+        <activity
+            android:name=".GrilledChicken"
+            android:exported="false" />
+        <activity
+            android:name=".GrilledSalmon"
+            android:exported="false" />
+        <activity
+            android:name=".EgyFalafel"
+            android:exported="false" />
+        <activity
+            android:name=".Breakfast"
+            android:exported="false" />
+        <activity
+            android:name=".Flafel"
+            android:exported="false" />
+        <activity
+            android:name=".Eggs"
+            android:exported="false" />
+        <activity
+            android:name=".HotBuns"
+            android:exported="false" />
+        <activity
+            android:name=".HomeFries"
+            android:exported="false" />
+        <activity
+            android:name=".ColdDrinks"
+            android:exported="false" />
+        <activity
+            android:name=".Yogurt"
+            android:exported="false" />
+        <activity
+            android:name=".Smoothie"
+            android:exported="false" />
+        <activity
+            android:name=".MilkShake"
+            android:exported="false" />
+        <activity
+            android:name=".Lemonade"
+            android:exported="false" />
+        <activity
+            android:name=".HotDrinks"
+            android:exported="false" />
+        <activity
+            android:name=".TeaMix"
+            android:exported="false" />
+        <activity
+            android:name=".ChocoLatte"
+            android:exported="false" />
+        <activity
+            android:name=".ChaiLatte"
+            android:exported="false" />
+        <activity
+            android:name=".HotCocoa"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Desserts"
+            android:exported="false" />
+        <activity
+            android:name=".Cake"
+            android:exported="false" />
+        <activity
+            android:name=".Cinnamon"
+            android:exported="false" />
+        <activity
+            android:name=".Muffin"
+            android:exported="false" />
+        <activity
+            android:name=".Waffle"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

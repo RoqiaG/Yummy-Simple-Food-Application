@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TomatoSoup">
+
+
+    <TextView
+        android:id="@+id/TomatoSoupTextView"
+        android:layout_width="392dp"
+        android:layout_height="73dp"
+        android:fontFamily="@font/candal"
+        android:text="Tomato Soup"
+        android:textColor="@color/purple_500"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/TomatoSoupParaTextView1"
+        android:layout_width="394dp"
+        android:layout_height="140dp"
+        android:text="3 tablespoons butter, 1 cup chopped onion, ½ cup chopped carrots, 2 stalks celery, chopped, 2 cloves garlic, minced, ¼ cup chopped fresh flat-leaf parsley, 2 ½ cups chopped fresh tomatoes."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <TextView
+        android:id="@+id/TomatoSoupParaTextView2"
+        android:layout_width="392dp"
+        android:layout_height="237dp"
+        android:text="Step 1: Melt the butter in a stock pot over medium heat. Stir in the onion, carrots, celery, garlic, and parsley; cook and stir until the onion has softened and turned translucent, about 5 minutes. Add the tomatoes, tomato sauce, coffee, water, sugar, salt, and pepper. Bring the soup to a boil and simmer for 20 to 25 minutes.Step 2: Pour the hot soup into a blender, filling the pitcher no more than halfway full. Hold down the lid of the blender with a folded kitchen towel."
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <ImageView
+        android:id="@+id/TomatoSoupImageView"
+        android:layout_width="390dp"
+        android:layout_height="204dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19"
+        app:srcCompat="@drawable/tomatosoup" />
+
+
+    <Button
+        android:id="@+id/TomatoSoupbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Youtube"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

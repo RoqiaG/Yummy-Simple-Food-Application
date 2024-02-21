@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotCocoa">
+
+
+   <GridView
+       android:id="@+id/HotCocoaGridView"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="154dp"
+       android:columnWidth="100dp"
+       android:gravity="center"
+       android:numColumns="auto_fit" />
+
+   <TextView
+       android:id="@+id/HotCocoaTextView"
+       android:layout_width="wrap_content"
+       android:layout_height="196dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="7dp"
+       android:layout_marginLeft="7dp"
+       android:layout_marginTop="9dp"
+       android:layout_marginEnd="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginBottom="646dp"
+       android:fontFamily="@font/candal"
+       android:text="Hot Cocoa"
+       android:textColor="@color/purple_500"
+       android:textSize="40sp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.02" />
+
+   <TextView
+       android:id="@+id/HotCocoaParaTextView1"
+       android:layout_width="wrap_content"
+       android:layout_height="205dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="4dp"
+       android:layout_marginLeft="4dp"
+       android:layout_marginTop="374dp"
+       android:layout_marginEnd="13dp"
+       android:layout_marginRight="13dp"
+       android:layout_marginBottom="272dp"
+       android:text="¾ cup white sugar ,⅓ cup unsweetened cocoa powder ,1 pinch salt ,⅓ cup boiling water ,3 ½ cups milk ,¾ teaspoon vanilla extract ,½ cup half-and-half cream."
+       android:textSize="16sp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.538" />
+
+   <TextView
+       android:id="@+id/HotCocoaParaTextView2"
+       android:layout_width="391dp"
+       android:layout_height="331dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="2dp"
+       android:layout_marginLeft="2dp"
+       android:layout_marginEnd="1dp"
+       android:layout_marginRight="1dp"
+       android:layout_marginBottom="-68dp"
+       android:text="Step 1: Combine sugar, cocoa powder, and salt in a saucepan. Add boiling water and whisk until smooth. Bring mixture to a simmer and cook for 2 minutes. Stir constantly to prevent scorching.Step 2: Stir in 3 1/2 cups of milk and heat until very hot, but do not boil. Remove from heat; add vanilla.Step 3: Divide cocoa between 4 mugs. Add cream to each mug to cool cocoa to drinking temperature."
+       android:textSize="14sp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.592"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.942" />
+
+
+</RelativeLayout>
